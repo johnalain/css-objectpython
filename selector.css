@@ -1,0 +1,36 @@
+/* https://www.youtube.com/watch?v=h1mNPEjva8U&t=2450s */
+/* * will add styling for all elements in page */
+/* *{
+    color: blue;
+    font-size: 25px;
+} */
+/*descendant <div>
+    <p>hello <strong>michel</strong></p>
+    <h2>hello <strong>michel</strong></h2>
+ </div>*/
+/* div p strong{color: blue; font-size: 32px;}
+div h2 strong{color: red;} */
+/* h2 strong{ color: orange;} */
+/* div ul li{
+    color: red;
+} */
+/* .container .list #item1{
+    color: blue;
+} */
+/* <div class="container">
+    <ul class="list">
+        <li id="item1">item1</li>
+        <li>item2</li>
+        <li>item3</li>
+     */
+ li {
+    color: red;
+     display: inline-block; 
+    position: relative;
+    top: 2px;
+    right: 40%;
+    left: 250px;
+    margin: 14px auto;
+    padding: 32px;
+
+}
