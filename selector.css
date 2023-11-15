@@ -37,6 +37,6 @@ div h2 strong{color: red;} */
 .mik{
     background-color: blue;
     width: 50%;
-    /* height: 160px; */
+     height: 160px; 
     width: max-content;
 }
