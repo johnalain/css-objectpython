@@ -1,0 +1,31 @@
+.parent{
+    background: red;
+    padding: 5px;
+    /* width: 80%;
+    height: 400px; */
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+    /* grid-template-rows: repeat(auto-fill,minmax(100px,auto));  grid-template-columns: repeat(4,auto); */
+    /* grid-template-columns: width of first column, width of second column; u can add as much as u want columns u can use also percentage 50% 50% u can do 3 columns 30% 50% 20% u can use auto auto auto for 3 columns u can use 1fr 1fr 1fr to divide width 3 parts excatly u can use px with fr u can use percentage with fr (50% 1fr 1fr) (1fr auto) 1fr take all the space auto take te necessary space to appear 
+    grid-template-columns: repeat(4, 100px) (number of columns,width of each column) */
+    /* grid-template-rows: 100px 50px; */
+    /* grid-template-rows: minmax(100px,300px) repeat(auto,100px); */
+    /* grid-template-rows: 100px 50px;  define height of row 100px height of first row 50 px height of second row 
+    when use auto or fr u must define height of element
+    grid-template-rows:repeat (3,100px); u can use repeat(3,100px)
+    grid-template-colummns: minmax(100px,200px) column must be 100px not < and not more than 200px;
+    grid-template-rows: repeat(3,100px) 3 rows 100px each:*/
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    gap: 20px ;
+    /* gap: rows gap columns  if u write gap:one value this valuewill b for both rows and columns*/
+    /* justify-content:end ; */
+    justify-content: left;
+    /* will workonx-axis contrary if used in flex work onboth x-axis and y-axis  justify-content:center-- justify-content:start--  justify-content: end but u must in grid-template-columns u must not use fr repeat(100px ifr) inthis case justify-content will not work insteadof 1fr use auto ;*/
+
+}
+.parent div{
+    background: yellow;
+    width: 45px;
+}
