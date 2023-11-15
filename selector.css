@@ -25,12 +25,18 @@ div h2 strong{color: red;} */
      */
  li {
     color: red;
-     display: inline-block; 
-    position: relative;
+     display: inline-flex; 
+    /* position: relative; */
     top: 2px;
     right: 40%;
     left: 250px;
     margin: 14px auto;
     padding: 32px;
 
+}
+.mik{
+    background-color: blue;
+    width: 50%;
+    /* height: 160px; */
+    width: max-content;
 }
