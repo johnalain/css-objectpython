@@ -64,11 +64,16 @@
 #     print(first_num / second_num)
 # else :
 #     print(first_num * second_num)
-    
-# def add_number(a, b):
-#     return a + b
-# result = add_number(3,5)
-# print(result)
+ #python function   
+# -def add_number(a, b):
+#     -return a + b
+# -result = add_number(3,5)
+# -print(result)
+# javascript function
+# -function sayHello() {
+#   -console.log("hello michel");
+# =}
+# -sayHello();
     
 # def slat_mik():
 #     return "hello"
