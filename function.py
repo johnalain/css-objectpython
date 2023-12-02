@@ -1,38 +1,50 @@
 
-# my_num = input("enter ur number")
-# my_num1 = input("enter another number")
-# result = int(my_num) + int(my_num1)
+my_num = input("enter ur number")
+my_num1 = input("enter another number")
+result = float(my_num) + float(my_num1)
 #if you enter decimal number u should use float instead of int
-# result = float(my_num) + float(my_num1)
-# print(result)
+result = float(my_num) + float(my_num1)
+print(result)
+print("="*25)
+#tested  till here
+
+
 # lists
-# friends = [1,"codezilla",True,False,[1,"michel"]]
-#friends =[index0,index1,index2,index3,index4]
-#list can have more then one item variable has only one
-#u can put a list inside another list
-# print (friends)
-# print(friends[0])
-# friends = ["example","codezilla","python","programming"]
-#index[-1] print last item of list
-# print(friends[-1])
-# print(friends[-2])
-# print(friends[-4])
-# # print(friends[-5])//out of list range
-# print(friends[1:3])
-# #print from index 1 to index 3 "index3"not included
-# print(friends[0:3])
-# print(friends[1:])
-# #print(friends[1:])from index 1 till end of list
-# #['codezilla', 'python', 'programming']
-# friends[0] = "michel"
-# #to change item in list ['michel', 'codezilla', 'python', 'programming
-# print(friends)
-# codezilla = ["programming", "python", "tutorials", "html","css"]
-# tutorial =["extend","list1","codezilla"]
-# print(codezilla,tutorial)
-#['programming', 'python', 'tutorials', 'html', 'css'] ['extend', 'list1', 'codezilla'] print 2 lists
-# codezilla.extend(tutorial)
-# print(codezilla)
+friends = [1,"codezilla",True,False,[1,"michel"]]
+# friends =[index0,index1,index2,index3,index4]
+# list can have more then one item variable has only one
+# u can put a list inside another list
+print (friends)
+print(friends[0])
+friends = ["example","codezilla","python","programming"]
+
+print(friends[-1])
+print(friends[-2])
+print(friends[-4])
+# print(friends[-5])//out of list range
+print(friends[1:3])
+#print from index 1 to index 3 "index3"not included
+print(friends[0:3])
+print(friends[1:])
+#print(friends[1:])from index 1 till end of list
+#['codezilla', 'python', 'programming']
+friends[0] = "michel"
+#to change item in list ['michel', 'codezilla', 'python', 'programming
+print(friends)
+print("="*25)
+
+# till now tested
+
+codezilla = ["programming", "python", "tutorials", "html","css"]
+tutorial =["extend","list1","codezilla"]
+print(codezilla,tutorial)
+print("="*25)
+
+codezilla = ['programming', 'python', 'tutorials', 'html', 'css'] ['extend', 'list1', 'codezilla'] 
+
+codezilla.extend(tutorial)
+print(codezilla)
+print("="*25)
 # ['programming', 'python', 'tutorials', 'html', 'css', 'extend', 'list1', 'codezilla']
 # codezilla += tutorial 
 # same as codezilla = codezilla + tutorial to do concatnation
@@ -144,14 +156,14 @@
 # print(student1.name,student1.age,student1.major,student1.university_name)
 
 #https://www.youtube.com/watch?v=ZaQgQN2HTGY&t=1s
-from Employee import Employee
+# from Employee import Employee
 # from Employee import Student
-from FamilyDoctor import FamilyDoctor
+# from FamilyDoctor import FamilyDoctor
 
 
 
-employee1 = Employee("michel",50,"codezilla",True,5,1500)
-employee2 = Employee("rita",60,"facebook",False,4,500)
+# employee1 = Employee("michel",50,"codezilla",True,5,1500)
+# employee2 = Employee("rita",60,"facebook",False,4,500)
 # employee1 = Employee("michel",1500)
 # employee2 = Employee("rita",500)
 # print(employee1.name,employee1.age,employee1.department,employee1.rating)
@@ -159,18 +171,18 @@ employee2 = Employee("rita",60,"facebook",False,4,500)
 # print(employee2.is_excellent())
 # print(employee1.name,employee1.salary)
 # print(employee2.name,employee2.age,employee2.salary)
-print(employee1.salary)
-print(employee1.bonus())
-print(employee2.salary)
-print(employee2.bonus())
+# print(employee1.salary)
+# print(employee1.bonus())
+# print(employee2.salary)
+# print(employee2.bonus())
 
 
 
-doctor2=FamilyDoctor ()
+# doctor2=FamilyDoctor ()
 
 
-doctor2.studied_years()
-doctor2.works_where()
-doctor2.paid_by_who()
+# doctor2.studied_years()
+# doctor2.works_where()
+# doctor2.paid_by_who()
 
 

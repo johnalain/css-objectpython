@@ -1,3 +1,4 @@
+# these files sre in github repository objectpython 
 #elzero web schoo python video 21
 myList = ["one","two","one",1,100, 5.7,True ]
 print(myList[0])
